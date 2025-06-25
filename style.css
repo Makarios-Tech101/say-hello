@@ -4,8 +4,13 @@ body {
 }
 
 .big-container {
-    background-color: rgb(218, 218, 218);
+    /* background-color: rgb(218, 218, 218); */
     height: 100vh;
+    background-image: url("./image/background-imge.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(0%);
 }
 
 .main-container {
